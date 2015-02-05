@@ -15,6 +15,7 @@
 		4C58A80F1A834E10003B7A67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C58A80E1A834E10003B7A67 /* Images.xcassets */; };
 		4C58A8121A834E10003B7A67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C58A8101A834E10003B7A67 /* LaunchScreen.xib */; };
 		4C58A81E1A834E10003B7A67 /* UIViewController_NavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C58A81D1A834E10003B7A67 /* UIViewController_NavigationBarTests.m */; };
+		4C58A82A1A836C4A003B7A67 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C58A8291A836C4A003B7A67 /* UIViewController+NavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		4C58A8171A834E10003B7A67 /* UIViewController+NavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIViewController+NavigationBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C58A81C1A834E10003B7A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C58A81D1A834E10003B7A67 /* UIViewController_NavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewController_NavigationBarTests.m; sourceTree = "<group>"; };
+		4C58A8281A836C4A003B7A67 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		4C58A8291A836C4A003B7A67 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		4C58A7FD1A834E0F003B7A67 /* UIViewController+NavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				4C58A8281A836C4A003B7A67 /* UIViewController+NavigationBar.h */,
+				4C58A8291A836C4A003B7A67 /* UIViewController+NavigationBar.m */,
 				4C58A8021A834E0F003B7A67 /* AppDelegate.h */,
 				4C58A8031A834E0F003B7A67 /* AppDelegate.m */,
 				4C58A8051A834E0F003B7A67 /* MasterViewController.h */,
@@ -228,6 +233,7 @@
 				4C58A8071A834E0F003B7A67 /* MasterViewController.m in Sources */,
 				4C58A8011A834E0F003B7A67 /* main.m in Sources */,
 				4C58A80A1A834E0F003B7A67 /* DetailViewController.m in Sources */,
+				4C58A82A1A836C4A003B7A67 /* UIViewController+NavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				4C58A8231A834E11003B7A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C58A8241A834E11003B7A67 /* Build configuration list for PBXNativeTarget "UIViewController+NavigationBarTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				4C58A8261A834E11003B7A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
